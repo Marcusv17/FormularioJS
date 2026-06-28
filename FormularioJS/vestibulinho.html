@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestibulinho - ETEC Zona Leste</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        .logo {
+            height: 35px;
+        }
+
+        body {
+            background-color: #fffafa;
+        }
+
+        h2 {
+            color: #b02a37;
+        }
+
+        .banner {
+            background-color: #b02a37;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #b02a37;
+        }
+    </style>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #fffafa 0%, #f0f8ff 100%);
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+
+        .navbar {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .navbar-nav .nav-link {
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+
+        .card {
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .card img {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+
+        .btn {
+            border-radius: 30px;
+            padding: 8px 20px;
+        }
+
+
+        .form-control,
+        .form-select {
+            border-radius: 15px;
+        }
+
+
+        .container {
+            margin-top: 60px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+
+
+        h2 {
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+
+        footer {
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="imagens/etec-cpsLogo.svg" class="logo me-2">
+                ETEC Zona Leste
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quemSomos.html">Quem Somos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Vestibulinho</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formulario.html">Formulário</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="banner">
+        <i class="fas fa-graduation-cap text-white me-2" style="font-size: 3rem;"></i><h1>Vestibulinho ETEC</h1>
+        <p>Inscreva-se e garanta seu futuro!</p>
+        <a href="https://vestibulinho.etec.sp.gov.br/home/" class="btn btn-light mt-3">Fazer Inscrição</a>
+    </div>
+
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Sobre o Vestibulinho</h2>
+        <p class="text-center">
+            O Vestibulinho é o processo seletivo para ingresso nos cursos técnicos da ETEC.
+        </p>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row text-center">
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <i class="fas fa-calendar-alt text-info mb-2" style="font-size: 2rem;"></i>
+                    <h5>Inscrições</h5>
+                    <p>01/10 a 15/11</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <i class="fas fa-pencil-alt text-warning mb-2" style="font-size: 2rem;"></i>
+                    <h5>Prova</h5>
+                    <p>10/12</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <i class="fas fa-chart-line text-success mb-2" style="font-size: 2rem;"></i>
+                    <h5>Resultado</h5>
+                    <p>20/12</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Como Funciona</h2>
+        <ul>
+            <li>Realize sua inscrição online</li>
+            <li>Pague a taxa de inscrição</li>
+            <li>Faça a prova na data marcada</li>
+            <li>Aguarde o resultado</li>
+        </ul>
+    </div>
+
+
+    <footer class="text-white pt-4 mt-5 w-100">
+        <div class="container-fluid px-3 px-md-5">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h5>ETEC Zona Leste</h5>
+                    <p>Ensino técnico de qualidade.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Início</a></li>
+                        <li><a href="quemSomos.html" class="text-white">Quem Somos</a></li>
+                        <li><a href="vestibulinho.html" class="text-white">Vestibulinho</a></li>
+                        <li><a href="formulario.html" class="text-white">Formulário</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Contato</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> São Paulo - SP</p>
+                    <p><i class="fas fa-phone"></i> (11) 0000-0000</p>
+                    <p><i class="fas fa-envelope"></i> etec@email.com</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Horário</h5>
+                    <p><i class="fas fa-clock"></i> Seg - Sex: 08h às 22h</p>
+                    <p>Sábado: 08h às 12h</p>
+
+
+                    <h5 class="mt-3">Redes</h5>
+                    <a href="https://www.facebook.com/Eteczonalesteoficial/?locale=pt_BR" class="text-white" data-bs-toggle="tooltip" data-bs-placement="top" title="Visite nosso Facebook"><i class="fab fa-facebook"></i> Facebook</a><br>
+                    <a href="https://www.instagram.com/eteczonalesteoficial" class="text-white" data-bs-toggle="tooltip" data-bs-placement="top" title="Siga-nos no Instagram"><i class="fab fa-instagram"></i> Instagram</a><br>
+                    <a href="https://www.youtube.com/@etecdazonaleste2949" class="text-white" data-bs-toggle="tooltip" data-bs-placement="top" title="Assista nossos vídeos"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center pb-3">
+                © 2026 ETEC Zona Leste
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="btn btn-danger rounded-circle p-3" style="position: fixed; bottom: 20px; right: 20px; display: none; z-index: 1000;"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Fade in on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        });
+
+        document.querySelectorAll('.container').forEach(el => observer.observe(el));
+
+        // Back to top button
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                backToTopBtn.style.display = 'block';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Initialize tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+
+</body>
+
+</html>
